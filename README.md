@@ -2,13 +2,13 @@
 
 I’m a self-taught builder from Poland working at the intersection of Solana, DeFi risk, onchain data, and financial monitoring.
 
-Right now I’m developing **Kelvar Monitor** — a Solana protocol-state assurance product.
+Right now I’m developing **Kelvara Monitor** — a Solana protocol-state assurance product.
 
 Not another generic “security dashboard.” The goal is sharper:
 
 > Monitor the financial and operational state of Solana protocols, detect material changes, and provide evidence for exactly what changed and why it matters.
 
-### Current focus: Kelvar Monitor
+### Current focus: Kelvara Monitor
 
 I’m building toward **continuous protocol state assurance** for Solana protocols:
 
