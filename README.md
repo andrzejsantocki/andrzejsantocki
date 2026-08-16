@@ -2,13 +2,13 @@
 
 I’m a self-taught builder from Poland working at the intersection of Solana, DeFi risk, onchain data, and financial monitoring.
 
-Right now I’m developing **Solana Guard Monitor** — a Solana protocol-state assurance product.
+Right now I’m developing **Kelvar Monitor** — a Solana protocol-state assurance product.
 
 Not another generic “security dashboard.” The goal is sharper:
 
 > Monitor the financial and operational state of Solana protocols, detect material changes, and provide evidence for exactly what changed and why it matters.
 
-### Current focus: Solana Guard Monitor
+### Current focus: Kelvar Monitor
 
 I’m building toward **continuous protocol state assurance** for Solana protocols:
 
@@ -65,9 +65,13 @@ Long-term, I see this becoming an **onchain financial risk observatory** for Sol
 ### Skills / tools
 
 <p align="left">
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
-<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
-<a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg" width="36" height="36" alt="Django" /></a>
+  <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,nodejs,fastapi,sqlite,postgres,docker,git,github" alt="Python, TypeScript, JavaScript, React, Next.js, Node.js, FastAPI, SQLite, PostgreSQL, Docker, Git, GitHub" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Solana-14F195?style=for-the-badge&logo=solana&logoColor=black" alt="Solana" />
+  <img src="https://img.shields.io/badge/DeFi-risk%20monitoring-111827?style=for-the-badge" alt="DeFi risk monitoring" />
+  <img src="https://img.shields.io/badge/Onchain-data-2563EB?style=for-the-badge" alt="Onchain data" />
+  <img src="https://img.shields.io/badge/SQLite-state%20history-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite state history" />
+  <img src="https://img.shields.io/badge/API-first-0F172A?style=for-the-badge" alt="API-first" />
 </p>
