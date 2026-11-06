@@ -1,77 +1,99 @@
-## Hi, I’m Andrzej 👋
+<h2 align="center">Hi, I'm Andrzej 👋</h2>
+<p align="center">Builder from Poland · Solana security · DeFi · hardware · automation</p>
 
-I’m a self-taught builder from Poland working at the intersection of Solana, DeFi risk, onchain data, and financial monitoring.
+<h3>🛡️ Solana Security &amp; Protocol Monitoring</h3>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/andrzejsantocki/kelvara_program"><b>kelvara_program</b></a><br>
+      <sub>Finds a wallet's ONyc position, monitors the trust assumptions behind it and prepares an exit when they change.</sub><br>
+      <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/andrzejsantocki/solana-security-game"><b>solana-security-game</b></a><br>
+      <sub>Interactive 3D simulator for learning Solana's security model, PDAs and CPI. One HTML file, no install.</sub><br>
+      <img src="https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/andrzejsantocki/tidify-program"><b>tidify-program</b></a><br>
+      <sub>Tidify Solana program: recover value from small token balances. Reproducible source and IDL.</sub><br>
+      <img src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/andrzejsantocki/tidify-ui"><b>tidify-ui</b></a><br>
+      <sub>Hosted demo UI for the Tidify / Dust Collector protocol.</sub><br>
+      <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+    </td>
+  </tr>
+</table>
 
-Right now I’m developing **Kelvara Monitor** — a Solana protocol-state assurance product.
+<h3>🔐 Offline Wallets &amp; Hardware Crypto</h3>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://github.com/andrzejsantocki/solana-dice-bip39-wallet-generator"><b>dice wallet generator</b></a><br>
+      <sub>Offline Solana wallet generated from physical dice entropy.</sub><br>
+      <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/andrzejsantocki/solana-dice-bip39-wallet-generator-pi"><b>dice wallet · Raspberry Pi</b></a><br>
+      <sub>Air-gapped Raspberry Pi edition with pinned ARM64 wheels.</sub><br>
+      <img src="https://img.shields.io/badge/-Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi">
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/andrzejsantocki/solana-dice-bip39-wallet-generator-esp32"><b>dice wallet · ESP32</b></a><br>
+      <sub>Cardputer ADV firmware with audit fingerprint and SD report.</sub><br>
+      <img src="https://img.shields.io/badge/-C%20%2F%20ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
+    </td>
+  </tr>
+</table>
 
-Not another generic “security dashboard.” The goal is sharper:
+<h3>🏠 Home Automation &amp; Computer Vision</h3>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/andrzejsantocki/warsaw-ztm-hacs"><b>warsaw-ztm-hacs</b></a><br>
+      <sub>Home Assistant (HACS) integration: Warsaw ZTM bus schedules and live approaching-bus GPS.</sub><br>
+      <img src="https://img.shields.io/badge/-Home%20Assistant-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" alt="Home Assistant">
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/andrzejsantocki/fastapi-yolo-surveillance"><b>fastapi-yolo-surveillance</b></a><br>
+      <sub>Local real-time surveillance: ESP32-CAM streams + YOLO11 on a low-power mini PC, no cloud.</sub><br>
+      <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+    </td>
+  </tr>
+</table>
 
-> Monitor the financial and operational state of Solana protocols, detect material changes, and provide evidence for exactly what changed and why it matters.
+<h3>🧠 AI &amp; Productivity Tools</h3>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/andrzejsantocki/synapse-flow"><b>synapse-flow</b></a><br>
+      <sub>Learning tracker with spaced repetition, activity heatmaps and Gemini AI.</sub><br>
+      <img src="https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini">
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/andrzejsantocki/shortcut_bot"><b>shortcut_bot</b></a><br>
+      <sub>Desktop keyboard-shortcut manager with an AI agent that organizes your commands.</sub><br>
+      <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+    </td>
+  </tr>
+</table>
 
-### Current focus: Kelvara Monitor
-
-I’m building toward **continuous protocol state assurance** for Solana protocols:
-
-- protocol-specific adapters, starting with ONyc / OnRe
-- account, authority, vault, reserve, supply, redemption, and config monitoring
-- historical snapshots and field-level diffs
-- SQLite-backed state/history
-- delayed public API + future realtime/private alerting path
-- evidence-first risk events: account, slot, transaction, metric, reason
-
-The main product question I care about:
-
-> What materially changed in this protocol, why does it matter financially, and what onchain evidence proves it?
-
-### Why this matters
-
-Solana protocols move fast. Operators, investors, integrators, and risk teams need more than generic alerts. They need reproducible answers about:
-
-- authority changes
-- reserve and vault movements
-- liquidity evacuation risk
-- redemption queues
-- supply and backing changes
-- protocol config/state changes
-- unusual financial deltas vs historical baseline
-
-Long-term, I see this becoming an **onchain financial risk observatory** for Solana protocols and RWA systems: trust, but continuously verify.
-
-### What I’m learning/building
-
-- Solana account/state modeling
-- protocol-specific risk rules and invariants
-- Python backend systems
-- SQLite event/history stores
-- API-first product design
-- onchain financial monitoring
-- DeFi/RWA protocol analysis
-
-### Ask me about
-
-- Solana DeFi risk monitoring
-- protocol-state changes
-- onchain evidence pipelines
-- financial risk dashboards
-- building a focused B2B crypto product from scratch
-
-### Reach me
-
-- GitHub: [@andrzejsantocki](https://github.com/andrzejsantocki)
-- LinkedIn: [andrzejsantocki](https://www.linkedin.com/in/andrzejsantocki)
-
----
-
-### Skills / tools
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,nodejs,fastapi,sqlite,postgres,docker,git,github" alt="Python, TypeScript, JavaScript, React, Next.js, Node.js, FastAPI, SQLite, PostgreSQL, Docker, Git, GitHub" />
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Solana-14F195?style=for-the-badge&logo=solana&logoColor=black" alt="Solana" />
-  <img src="https://img.shields.io/badge/DeFi-risk%20monitoring-111827?style=for-the-badge" alt="DeFi risk monitoring" />
-  <img src="https://img.shields.io/badge/Onchain-data-2563EB?style=for-the-badge" alt="Onchain data" />
-  <img src="https://img.shields.io/badge/SQLite-state%20history-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite state history" />
-  <img src="https://img.shields.io/badge/API-first-0F172A?style=for-the-badge" alt="API-first" />
-</p>
+<h3>📈 DeFi &amp; Data</h3>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/andrzejsantocki/LP_Position_Manager"><b>LP_Position_Manager</b></a><br>
+      <sub>Track, manage and analyze liquidity pool positions and APY.</sub><br>
+      <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/andrzejsantocki/the-sql-gym"><b>the-sql-gym</b></a><br>
+      <sub>Interactive command-line tool for practicing SQL with validated answers.</sub><br>
+      <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=sqlite&logoColor=white" alt="SQL">
+    </td>
+  </tr>
+</table>
